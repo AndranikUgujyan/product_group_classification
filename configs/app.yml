@@ -1,0 +1,30 @@
+model_1_path: "models/model_1"
+model_2_path: "models/model_2"
+model_3_path: "models/model_3"
+model_4_path: "models/model_4"
+model_5_path: "models/model_5"
+model_6_path: "models/embedded_model_6"
+model_7_path: "models/embedded_model_7"
+model_8_path: "models/embedded_model_8"
+model_9_path: "models/embedded_model_9"
+model_10_path: "models/embedded_model_10"
+model_11_path: "models/embedded_model_11"
+
+tokenizer_path: "models/tokenizer.pickle"
+
+conf_matrix_save_path: "matrix_plots/{}_confusion_matrix.png"
+
+logs_save_dir_path: "models_logs"
+
+main_dataset: "data/testset_C.csv"
+
+train_norm_data_path: "data/product_train_norm.csv"
+test_norm_data_path: "data/product_test_norm.csv"
+
+main_embedded_dataset: "data/test_set_C_embedded.csv"
+train_embedded_data_path: "data/product_train_embedded.csv"
+test_embedded_data_path: "data/product_test_embedded.csv"
+
+main_data_plot_path: "data_plots/main_data_plot.png"
+
+all_models_result_plot_path: "models_results_plots/{}"
